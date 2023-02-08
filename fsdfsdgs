@@ -1,0 +1,12 @@
+getgenv().print = function(...)
+   rconsoleprint("\n" .. table.concat({...}," "))
+end
+print("Checking Data Files...")
+task.wait(1)
+print("Script Made By: FATE#8209 on discord, get ready to fuck someone up! (You can minimize this page)")
+print("Controls:")
+print("Hold T (Rapid Fire Sniper):")
+print("Press V (Aims Sniper):")
+print("Hold E (Fires Machine Gun):")
+print("Press G (Unequip Guns/Equip Guns):")
+print("Press K (Unequip Machine Gun/Equip Machine Gun):")
